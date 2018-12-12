@@ -102,20 +102,10 @@ if (message.content.startsWith("test"))
    * Blank field, useful to create some space.
    */
   .addBlankField(true)
-  .addField("Privat", `Ето только для сервера **${message.guild.name}!**`, true);
+  .addField("Private", `Ето только для сервера **${message.guild.name}!**`, true);
  
   message.channel.send(embed);
 	
-	
-if(message.content.startsWith("acthelp"))
-client.user.setActivity('*info', { type: 'PLAYING' })
-  .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'Сообщество большых людей'}`))
-  .catch(console.error);
-	
-if(message.content.startsWith("actagain"))
-	client.user.setActivity('вместе с RedFury#2354', { type: 'WATCHING' })
-  .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'Сообщество большых людей'}`))
-  .catch(console.error);
 	
 	
 	
