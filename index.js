@@ -50,7 +50,7 @@ message.member.send({embed: {
   }
 });
 if(message.content.startsWith(prefix + "info"))
-message.channel.send("**Хей!Посмотри в свой ЛС! ✉**");
+message.channel.send("**Хей!Посмотри в свой ЛС! 📧**");
 	
 	client.user.setActivity('вместе с RedFury#2354', { type: 'WATCHING' })
   .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'Сообщество большых людей'}`))
