@@ -63,7 +63,7 @@ client.user.setStatus('dnd')
 if(message.content.startsWith(prefix + "invite"))
 message.member.send({embed: {
   color: 0xff0000,
-  description: "**Инвайт на бота [Neurax!](https://discordapp.com/oauth2/authorize?client_id=503253370694402048&scope=bot&permissions=1878392257**"
+  description: "**Инвайт на бота [Neurax!](https://discordapp.com/oauth2/authorize?client_id=503253370694402048&scope=bot&permissions=1878392257)**"
   
   }});
 if(message.content.startsWith(prefix + "invite"))
