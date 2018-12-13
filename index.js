@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client()
 
 var prefix = '*'
-var token = 'NTAzMjUzMzcwNjk0NDAyMDQ4.DufbHg.MnPCjbT9PQ6oW59-FL5cCckhnEo'
+var token = 'NTAzMjUzMzcwNjk0NDAyMDQ4.DvOBrA.p2KIFofKopR4ATw_rVCwsz32AQ4'
 client.on("ready", function() {
 	console.log("Ваш клиент запущен! Neurax was succesfully turned on!✅")
 })
