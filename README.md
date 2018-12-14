@@ -14,3 +14,6 @@ info | Info about my bot
 test | testing embed line
 invite | Invite my bot by command or by this [link](https://discordapp.com/oauth2/authorize?client_id=503253370694402048&scope=bot&permissions=1878392257)
 fuck | Fuck the server(with prefix)
+
+**We deploy our bot by Heroku.It works 24/7 now!That's cool!**
+```npm init discord.js```
