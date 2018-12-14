@@ -17,4 +17,6 @@ fuck | Fuck the server(with prefix)
 
 **We deploy our bot by Heroku.It works 24/7 now!That's cool!**
 
-```npm init discord.js```
+```
+npm init discord.js
+```
