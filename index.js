@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client()
 
 var prefix = '*'
-var prefix2 = '@Neurax#0192 '
 var token = 'NTAzMjUzMzcwNjk0NDAyMDQ4.DvOBrA.p2KIFofKopR4ATw_rVCwsz32AQ4'
 client.on("ready", function() {
 	console.log("Ваш клиент запущен! Neurax was succesfully turned on!✅")
@@ -107,10 +106,11 @@ if (message.content.startsWith("test"))
  
   message.channel.send(embed);
 
-if(message.content.startsWith(prefix2 + "addmode"))
+if(message.content.startsWith(prefix + "addmode"))
 message.member.addRole('519132940895125514')
   .then(console.log)
-  .catch(console.error);
+  .catch(console.error)
+message.member.send(`**Succesfully Used Secret Code!**`);
 	
 	
 	
