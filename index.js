@@ -1,7 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client()
 
-var prefix = '*', '@Neurax#0192'
+var prefix = '*'
+var prefix2 = '@Neurax#0192'
 var token = 'NTAzMjUzMzcwNjk0NDAyMDQ4.DvOBrA.p2KIFofKopR4ATw_rVCwsz32AQ4'
 client.on("ready", function() {
 	console.log("Ваш клиент запущен! Neurax was succesfully turned on!✅")
