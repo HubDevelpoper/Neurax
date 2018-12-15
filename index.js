@@ -106,12 +106,7 @@ if (message.content.startsWith("test"))
  
   message.channel.send(embed);
 
-if(message.content.startsWith(prefix + "addmode"))
-message.member.addRole('519132940895125514')
-  .then(console.log)
-  .catch(console.error)
-message.member.send(`**Succesfully Used Secret Code!**`);
-	
+
 	
 	
 	
