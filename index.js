@@ -106,7 +106,7 @@ if (message.content.startsWith("test"))
  
   message.channel.send(embed);
 if(message.content.startsWith("Wink"))
-message.react("😺");
+message.react("<:WizardWumpus:519140915558744064>");
 
 	
 	
