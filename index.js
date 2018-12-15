@@ -105,7 +105,8 @@ if (message.content.startsWith("test"))
   .addField("Private", `Ето только для сервера **${message.guild.name}!**`, true);
  
   message.channel.send(embed);
-
+if(message.content.startsWith("Wink"))
+message.react("😺");
 
 	
 	
