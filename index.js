@@ -109,7 +109,7 @@ if(message.content.startsWith("Wink"))
 message.react("519140915558744064");
 
 	
-else if (command === 'args-info') {
+else if (message.content.startsWith(prefix + "args") {
     if (!args.length) {
         return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
     }
