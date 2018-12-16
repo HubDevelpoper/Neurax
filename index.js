@@ -112,7 +112,7 @@ message.react("519140915558744064");
 
 else if (message.content.startsWith(prefix + "say")) {
     if (!args.length) {
-        return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
+        return message.channel.send(`Я не могу отправить пустое сообщение, ${message.author}!`);
     }
 
     message.channel.send(`${args}`);
@@ -121,7 +121,7 @@ else if (message.content.startsWith(prefix + "say")) {
 	
 else if (message.content.startsWith(prefix + "args")) {
     if (!args.length) {
-        return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
+        return message.channel.send(`Здесь нет аргументов, ${message.author}!`);
     }
 
     message.channel.send(`Command name: ${command}\nArguments: ${args}`);
