@@ -131,7 +131,11 @@ if(message.content.startsWith(prefix + "kick")) {
 message.channel.send("**Удачно кикнут!**");
 }
 
-	
+if(message.content.startsWith(prefix + "say2")){
+  let text2 = args.join(" ");
+  message.delete();
+  message.channel.send(`Hello ${text2}`);
+}
 	
 	
 	
