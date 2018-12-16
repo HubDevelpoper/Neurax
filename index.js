@@ -124,6 +124,11 @@ else if (message.content.startsWith(prefix + "args")) {
 
     message.channel.send(`Command name: ${command}\nArguments: ${args}`);
 }
+if(message.content.startsWith(prefix + "kick")) {
+  let member = message.mentions.members.first();
+  let reason = args.slice(1).join(" ");
+  member.kick(reason);
+}
 	
 	
 	
