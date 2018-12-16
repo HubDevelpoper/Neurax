@@ -51,7 +51,6 @@ message.member.send({embed: {
     }
   }
 });
-const command = args.shift().toLowerCase();
 	
 if(message.content.startsWith(prefix + "info"))
 message.channel.send("**Хей!Посмотри в свой ЛС! 📧**");
