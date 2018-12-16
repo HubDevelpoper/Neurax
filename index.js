@@ -16,7 +16,7 @@ client.on("message", message =>{
  if(message.content.startsWith("Купить бота"))
 message.channel.send({embed: {
   color: 0xff0000,
-  description: "**Чтобы купить бота нужно написать ОВНЕРУ в ЛС!   <:Bitcoin:503636334351613975>**"
+  description: "**Чтобы купить бота нужно написать ОВНЕРУ в ЛС!   💰**"
   
   }});
 if(message.content.startsWith(prefix + "info"))
