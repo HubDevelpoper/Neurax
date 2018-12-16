@@ -110,12 +110,10 @@ if (message.content.startsWith("test"))
 if(message.content.startsWith("Wink"))
 message.react("519140915558744064");
 
-else if (message.content.startsWith(prefix + "say")) {
-    if (!args.length) {
-        return message.channel.send(`Я не могу отправить пустое сообщение, ${message.author}!`);
-    }
-
-    message.channel.send(`${args}`);
+if(message.content.startsWith(prefix + "say")){
+  let text = args.join(" ");
+  message.delete();
+  message.channel.send(text);
 }
 
 	
