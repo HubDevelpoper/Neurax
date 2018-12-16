@@ -137,7 +137,15 @@ if(message.content.startsWith(prefix + "hug")){
   message.channel.send(`**${message.author} Обнял ${text2}!**`);
 }
 	
-	
+if(message.content.startsWith(prefix + "embed")){
+  let embed = args.join(" ");
+  message.delete();
+  message.channel.send({embed: {
+  color: 0xff0000,
+  description: `${embed}`
+  
+  }});
+}
 	
 	
 	
