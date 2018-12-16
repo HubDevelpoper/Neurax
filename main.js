@@ -132,7 +132,7 @@ message.channel.send("**Удачно кикнут!**");
 }
 
 if(message.content.startsWith("*ban"))
-guild.ban(`${args}`)
+member.ban(`${args}`)
   .then(user => console.log(`Banned ${user.username || user.id || user} from ${guild}`))
   .catch(console.error);
 	
