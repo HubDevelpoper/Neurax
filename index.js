@@ -130,11 +130,11 @@ if(message.content.startsWith(prefix + "kick")) {
   member.kick(reason);
 message.channel.send("**Удачно кикнут!**");
 }
-if(message.content.startsWith("*ban"))
-guild.ban(`${args}`)
-  .then(user => console.log(`Banned ${user.username || user.id || user} from ${guild}`))
-  .catch(console.error);
-	
+if(message.content.startsWith("say2")){
+let textiy = args.join(" ");
+message.delete();
+message.channel.send(textiy);
+}
 	
 	
 	
