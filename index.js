@@ -77,13 +77,13 @@ message.channel.send(`${message.guild.iconURL}?size=2048`);
 	
 if (message.content.startsWith("test"))
 	var embed = new Discord.RichEmbed()
-  .setTitle("Тест")
+  .setTitle("NOOOOOIOOOOOOOOT")
   .setAuthor(`${message.author.username}`, `${message.author.avatarURL}`)
   /*
    * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
    */
   .setColor(0x00AE86)
-  .setDescription("Тест")
+  .setDescription("LOOOOOOOOOOOL")
   .setFooter("Футер", "http://i.imgur.com/w1vhFSR.png")
   .setImage(`${message.guild.iconURL}?size=2048`)
   .setThumbnail("http://i.imgur.com/p2qNFag.png")
@@ -92,12 +92,12 @@ if (message.content.startsWith("test"))
    */
   .setTimestamp()
   .setURL("http://neurax.ml")
-  .addField("Тест",
-    "Тест")
+  .addField("NOOOOOOO",
+    "HEEEEEEEEELP")
   /*
    * Inline fields may not display as inline if the thumbnail and/or image is too big.
    */
-  .addField("Тест", "Тест", true)
+  .addField("FALLLLLLLLSE", "Keeeeeeeeeeeeeeep", true)
   /*
    * Blank field, useful to create some space.
    */
