@@ -2,7 +2,7 @@
   "name": "neurax",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "dependencies": {
     "discord.js": "^11.4.2",
     "stable": "^0.1.8"
