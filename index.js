@@ -128,6 +128,7 @@ if(message.content.startsWith(prefix + "kick")) {
   let member = message.mentions.members.first();
   let reason = args.slice(1).join(" ");
   member.kick(reason);
+message.channel.send("**Удачно кикнут!**");
 }
 	
 	
