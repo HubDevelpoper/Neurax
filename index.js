@@ -13,7 +13,7 @@ client.on("message", message =>{
 	if(message.content.startsWith(prefix + "fuck"))
 	message.reply("Послал Ваш Сервер");
 	  const args = message.content.slice(prefix.length).trim().split(/ +/g);
-
+          const command = args.shift().toLowerCase();
  if(message.content.startsWith("Купить бота"))
 message.channel.send({embed: {
   color: 0xff0000,
@@ -131,8 +131,6 @@ if(message.content.startsWith(prefix + "kick")) {
 message.channel.send("**Удачно кикнут!**");
 }
 	
-	
-const command = args.shift().toLowerCase();
 	
 })
 client.login(token);
