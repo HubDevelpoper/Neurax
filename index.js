@@ -12,6 +12,8 @@ client.on("message", message =>{
 	message.channel.send("``Это тестовый бот Neurax от сервера DragonForce! Не судите строго,мы еще в БЕТА!``  https://discord.gg/9A9GB7Q");
 	if(message.content.startsWith(prefix + "fuck"))
 	message.reply("Послал Ваш Сервер");
+	  const args = message.content.slice(prefix.length).trim().split(/ +/g);
+  const command = args.shift().toLowerCase();
 
  if(message.content.startsWith("Купить бота"))
 message.channel.send({embed: {
