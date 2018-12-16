@@ -8,6 +8,10 @@ client.on("ready", function() {
 })
 
 client.on("message", message =>{
+	module.exports = (client, member) => {
+  const defaultChannel = member.guild.channels.find(channel => channel.permissionsFor(guild.me).has("SEND_MESSAGES"));
+  defaultChannel.send(`Welcome ${member.user} to this server.`).catch(console.error);
+}
 	if(message.content.startsWith(prefix + "about"))
 	message.channel.send("``Это тестовый бот Neurax от сервера DragonForce! Не судите строго,мы еще в БЕТА!``  https://discord.gg/9A9GB7Q");
 	if(message.content.startsWith(prefix + "fuck"))
