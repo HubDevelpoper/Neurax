@@ -130,11 +130,6 @@ if(message.content.startsWith(prefix + "kick")) {
   member.kick(reason);
 message.channel.send("**Удачно кикнут!**");
 }
-if(message.content.startsWith("say2")){
-let textiy = args.join(" ");
-message.delete();
-message.channel.send(textiy);
-}
 	
 	
 	
