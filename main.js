@@ -141,7 +141,7 @@ if(message.content.startsWith(prefix + "embed")){
   let embed = args.join(" ");
   message.delete();
   message.channel.send({embed: {
-  color: 0xff0000,
+  color: 0x0099ff,
   description: `${embed}`
   
   }});
